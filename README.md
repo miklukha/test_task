@@ -13,8 +13,8 @@ The essence of the assignment:
 
 The color of the sections will depend on the strength of the password:
 
-- [x] If the field is empty, all sections are gray;
-- [x] If the field has less than 8 characters, all sections are red;
-- [x] If the password is easy - the first section is red the rest are gray;
-- [x] If the password is medium - the first two sections are yellow the last one is gray;
-- [x] If the password is strong, all sections are green;
+- If the field is empty, all sections are gray;
+- If the field has less than 8 characters, all sections are red;
+- If the password is easy - the first section is red the rest are gray;
+- If the password is medium - the first two sections are yellow the last one is gray;
+- If the password is strong, all sections are green;
