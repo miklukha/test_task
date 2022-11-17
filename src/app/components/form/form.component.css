@@ -1,0 +1,42 @@
+.input {
+  font-size: 18px;
+
+  padding: 0 11px;
+
+  height: 40px;
+  width: 250px;
+
+  border: 2px solid #dfdfdf;
+  border-radius: 40px;
+
+  color: #888888;
+}
+
+.input:focus {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  outline: none;
+}
+
+.field {
+  height: 5px;
+  width: 240px;
+
+  margin-top: 10px;
+  border-radius: 40px;
+}
+
+.gray {
+  background-color: #bab6b7;
+}
+
+.yellow {
+  background-color: #fffe16;
+}
+
+.red {
+  background-color: #ff1d16;
+}
+
+.green {
+  background-color: #03821a;
+}

@@ -1,0 +1,27 @@
+<input type="password" class="input" (input)="onSave($event)" [value]="value" />
+<div
+  class="field"
+  [ngClass]="{
+    gray: !value,
+    yellow: strength === 'medium',
+    red: (value.length < 8 && value !== '') || strength === 'easy',
+    green: strength === 'strong'
+  }"
+></div>
+<div
+  class="field"
+  [ngClass]="{
+    gray: !value || strength === 'easy',
+    yellow: strength === 'medium',
+    red: value.length < 8 && value !== '',
+    green: strength === 'strong'
+  }"
+></div>
+<div
+  class="field"
+  [ngClass]="{
+    gray: !value || strength === 'easy' || strength === 'medium',
+    red: value.length < 8 && value !== '',
+    green: strength === 'strong'
+  }"
+></div>
